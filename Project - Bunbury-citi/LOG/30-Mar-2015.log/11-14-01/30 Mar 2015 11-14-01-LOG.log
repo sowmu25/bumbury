@@ -1,0 +1,7 @@
+2015-03-30 11:14:02 INFO  BumburyClass :  Connecting to FTP Server
+2015-03-30 11:14:03 INFO  BumburyClass :  Connected to Server
+2015-03-30 11:14:03 INFO  BumburyClass :  No Files on server to download
+2015-03-30 11:14:08 ERROR EmailNotification :  Email not sent due to : javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: D:\workspace\Project - Bunbury-citi\${logfilename} (The system cannot find the file specified)
+2015-03-30 11:14:08 INFO  BumburyClass :  Execution completed
