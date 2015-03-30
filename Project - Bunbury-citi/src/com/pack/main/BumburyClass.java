@@ -16,6 +16,7 @@ public class BumburyClass {
 		LogFileLocationFinder.getValueForLogFile();
 		final Logger logger = Logger.getLogger(BumburyClass.class);
 		ReadPropFile.readPropFile();
+		//jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 		FTPClient ftpClient = new FTPClient();
 		try {
 
