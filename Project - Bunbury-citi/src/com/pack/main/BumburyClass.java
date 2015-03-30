@@ -12,9 +12,10 @@ import com.pack.download.Download;
 import com.pack.mail.EmailNotification;
 
 public class BumburyClass {
-		public static void main(String args[]) {
+		public static void start() {
 		LogFileLocationFinder.getValueForLogFile();
 		final Logger logger = Logger.getLogger(BumburyClass.class);
+		// String path1=".//"+ LogFileLocationFinder.logpath;
 		ReadPropFile.readPropFile();
 		//jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 		FTPClient ftpClient = new FTPClient();

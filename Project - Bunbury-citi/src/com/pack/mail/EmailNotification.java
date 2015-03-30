@@ -29,11 +29,11 @@ public class EmailNotification {
 	static String reciver = com.pack.bunbury.property.ReadPropFile.reciver;
 	static String senderpass = com.pack.bunbury.property.ReadPropFile.senderpass;
 	
-	static String logFileName=null;
+	static String logFileName=LogFileLocationFinder.fileNameWithPath;
 	public static void sendMail(String recipient, String subject , String body) 
 	{
 	
-		logFileName="D:\\workspace\\Project - Bunbury-citi\\LOG\\30-Mar-2015.log\\11-02-00\\30 Mar 2015 11-02-00-LOG.log";
+	//	logFileName=".\\LOG\\30-Mar-2015.log\\12-44-16\\30 Mar 2015 12-44-16-LOG.log";
 		System.out.println("logFileName is path :"+logFileName);
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com");
